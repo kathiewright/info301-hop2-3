@@ -19,7 +19,7 @@ Purpose:
          z3 = 0;
       //Conditional statements to check the results and display a message in the corresponding text box      
          z1===432? result1="Correct!": result1="Try Again!";
-         z2===0.06191950464396285?result2="Correct!": result2="Try Again!";
+         z2===-0.030959752321981424?result2="Correct!": result2="Try Again";
          z3===153.47500000000002? result3="Correct!": result3="Try Again!";
    
          document.getElementById("function1").innerHTML = result1;
